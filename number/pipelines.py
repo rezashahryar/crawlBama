@@ -6,11 +6,9 @@
 
 # useful for handling different item types with a single interface
 from itemadapter import ItemAdapter
-import psycopg2
 
 
 class NumberPipeline:
     def process_item(self, item, spider):
         return item
-
 
